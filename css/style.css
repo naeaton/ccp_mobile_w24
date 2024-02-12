@@ -1,0 +1,87 @@
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 0 10px 0;
+}
+.menu div{
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: #ADD8E6;
+}
+.menu div a{
+    display: block;
+    text-align: center;
+    padding: 1em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-family: "Monaco", monospace;
+    font-size: large;
+    text-decoration: none;
+    color: #000000;
+}
+.menu div a:hover{
+    background-color: #89cbf2;
+}
+.menu .active{
+    background-image: linear-gradient(to bottom, #2e8bc0, #b6a9dd);
+    border-radius: 30px;
+    border-bottom: 2px solid #555;
+}
+h1{
+    display: grid;
+    border-radius: 10px;
+    margin: 0 15% 0 15%;
+    background-color: #afc6d5;
+    text-align: center;
+    font-family: "Monaco", monospace;
+    font-size: large;
+}
+.text p{
+    display: inline-block;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Monaco", monospace;
+    border-radius: 10px;
+    background-color: #afc6d5;
+}
+.offpage{
+    position: absolute;
+    top:-1000px;
+    left:-1000px;
+}
+.offpage:focus{
+    top: 1px;
+    left: 10px;
+    font-family: "Monaco", monospace;
+}
+.logo{
+    text-align: center;
+}
+.text p a{
+    color: #000000;
+}
+
+.text h2{
+    font-family: "Monaco", monospace;
+}
+.text h3{
+    font-family: "Monaco", monospace;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    background-color: #ADD8E6;
+}
+.likes{
+    font-family: "Monaco", monospace;
+}
+.main-pic{
+    background-color: #ADD8E6;
+    border-radius: 20px;
+}
+.recipe{
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    font-family: "Monaco", monospace;
+}
